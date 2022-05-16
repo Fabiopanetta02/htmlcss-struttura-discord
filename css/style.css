@@ -22,25 +22,21 @@ section{
 }
 
 .logo{
-  background-color: #fff;
   width: 150px;
   height: 30px;
 }
 
 nav{
-  background-color: #fff;
   width: 400px;
   height: 30px;
 }
 
 .button{
-  background-color: #fff;
   width: 100px;
   height: 30px;
 }
 
 .title-and-p{
-  background-color: #fff;
   width: 500px;
   height: 200px;
 }
@@ -51,10 +47,65 @@ nav{
   height: 50px;
 }
 
+.img{
+  background-color: #292841;
+  width: 40%;
+  height: 300px;
+}
+
+.description-main{
+  background-color: #000;
+  width: 30%;
+  height: 300px;
+}
+
+.description-small{
+  background-color: #000;
+  width: 30%;
+  height: 200px;
+}
+
+.description-center{
+  background-color: #000;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.img-center{
+  background-color: #292841;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.adventure{
+  background-color: #000;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.button3{
+  background-color: #292841;
+  width: 200px;
+  height: 50px;
+}
+
   /* Utils */
 .container {
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .bg-white{
+    background-color: #fff;
+  }
+
+  .bg-grey{
+    background-color: lightgrey;
+    padding: 50px 0;
+    margin: 50px 0;
   }
 
   .flex-container{
@@ -63,6 +114,10 @@ nav{
 
   .between{
     justify-content: space-between;
+  }
+
+  .around{
+    justify-content: space-around;
   }
 
   .center{
